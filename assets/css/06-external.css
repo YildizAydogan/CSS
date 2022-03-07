@@ -1,0 +1,18 @@
+div{
+    background-color:rgb(201, 193, 193); 
+    color:black; 
+    text-align: center;
+    font-size: 30px; 
+    width: 300px;
+    height: 80px;
+   }
+   
+   
+   .aktif{
+       background-color:rgb(85, 82, 82);
+       color: white; 
+       text-align: center; 
+       font-size: 30px;
+       width: 300px;
+       height: 80px;
+   }
