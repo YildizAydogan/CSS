@@ -1,0 +1,27 @@
+body{
+     margin: 0;
+     padding: 0;
+   
+}
+nav.Menu{
+    text-align: link; 
+    background-color: #B4CFB0;
+    width: 250px;
+    height:250px ;
+    padding:2rem 0rem;
+    }
+
+.s1{background-color: #789395;}
+
+ul{
+    list-style: "🌸";
+    font-weight: 400;  
+    font-size: 2rem;
+   
+}
+
+ a{text-decoration: none;}
+ a:hover{background-color:#F1D00A; text-decoration: underline;}  
+ a:active{background-color: #E2C2B9}
+ a:link,a:visited{color:#1B1A17}
+ a:hover{color:white}  

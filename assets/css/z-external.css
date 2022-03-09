@@ -23,3 +23,47 @@ div {
     background-color: orange;
     color: blue;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   .body{
+    padding-top: 40px;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr 2.5fr 3fr;
+  }
+  
+  .kutu1 {
+    background-color: #595959;
+  }
+  .kutu2 {
+    background-color: #00b0f0;
+  }
+  
+  .kutu3 {
+    background-color: #ffd967;
+  }
+  
+  .kutu4 {
+    background-color: #ff0400;
+  }
+  
+  .kutu5 {
+    background-color: #92d150;
+  } 
