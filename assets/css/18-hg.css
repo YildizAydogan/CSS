@@ -1,0 +1,22 @@
+
+nav.Menu ul{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    background-color: #EDD2F3;
+    width:200px;
+    margin:0;
+    padding: 2rem 0rem;
+    list-style-type: "🍦";
+    list-style-position: inside;
+    font-weight: 400;  
+    font-size: 1.5rem;
+    
+   
+}
+.aktiv{background-color: #FFB2A6; }
+
+    a{text-decoration: none}
+    a:hover{background-color:#5EE6EB}  
+    a:active{background-color: #F2FA5A}
+    a:link,a:visited{color:#1B1A17}
+    a:hover{color:#E83A14}
