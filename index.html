@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ile Hamburger Menu Yapımı | PROTOTURK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="iframe"> 
+
+<input type="checkbox" id="menu-toggle">
+
+<div class="container">
+    <div class="go-back">
+        <a href="https://prototurk.com/makaleler/css-ile-hamburger-menu-yapimi">Makaleye geri dönmek için tıklayın</a>
+    </div>   
+    <div class="header">
+        <label class="hamburger-menu" for="menu-toggle">
+            <span></span>
+        </label>
+        <a href="#" class="logo">
+            ./prototurk
+        </a>
+        <div class="actions">
+            test
+        </div>
+        <label for="menu-toggle" class="backdrop"></label>
+    </div>
+</div>
+
+<nav class="menu">
+    <ul>
+        <li>
+            <a href="#">Anasayfa</a>
+        </li>
+        <li>
+            <a href="#">Hakkımda</a>
+        </li>
+        <li>
+            <a href="#">Porfolyo</a>
+        </li>
+        <li>
+            <a href="#">Blog</a>
+        </li>
+        <li>
+            <a href="#">İletişim</a>
+        </li>
+    </ul>
+</nav>
+
+<script>
+    const isIframe = (self.frameElement && (self.frameElement + "").indexOf("HTMLIFrameElement") > -1);
+    if (isIframe) {
+        let goBack = document.querySelector('.go-back');
+        goBack.parentNode.removeChild(goBack);
+    }
+</script>
+    
+</body>
+</html>
