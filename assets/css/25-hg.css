@@ -1,0 +1,40 @@
+.tablo{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 31%;
+    height:150px ;
+    text-align: left;
+}
+.tablo tr,  th{
+    border:1px solid rgb(218, 149, 171);
+    padding: 8px 12px;
+    color:rgb(109, 195, 216);
+ 
+}
+
+.tablo tr:nth-child(1) {
+    background-color:yellow;
+    
+}
+
+.tablo tr:nth-child(even) {
+background-color:gray;
+
+}
+.tablo tr:nth-child(8) {
+    text-align: right;
+    background-color:yellow;
+   
+}   
+nav ul{
+    width:29%;
+    text-align: right;   
+    
+}
+nav ul li{
+   
+    padding: 1rem;
+    background-color:rgb(176, 128, 231);
+    text-decoration: none;
+    display: inline-block;  
+}
