@@ -1,0 +1,25 @@
+.topnav ul{
+    display:flex;
+    list-style: none;
+    gap:0rem;
+    
+}
+.topnav a{  
+    text-decoration: none;
+    background-color: #b41756;
+    color:black;
+    padding:0.5rem 1rem;
+  }
+  .topnav .a{
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  }
+  .topnav  .b{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    }
+ 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rebeccapurple;
+  }

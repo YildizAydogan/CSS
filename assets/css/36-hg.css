@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .logo img{ 
+   width:100px;
+}
+header .topnav {
+    background-color: #333;
+  }
+  header .topnav ul{
+    display:flex;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    gap: 1rem;
+}
+  /* Navbar links */
+  header .topnav a {
+    text-decoration: none;
+    background-color: #b41756;
+    color:black;
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+div section .text {
+    display:flex;
+    float: right;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
